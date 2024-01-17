@@ -6,7 +6,7 @@ import java.util.Scanner; //Khai báo thư viện cho phép nhập đầu vào
 
 public class math2{
     public static void main(String[] args){
-        Scanner input = new Scanner(System.in); //tạo đối tượng của lớp
+        Scanner input = new Scanner(System.in); //tạo đầu vào
 
         System.out.print("Number: "); //Nhập số
         int number_a = input.nextInt();

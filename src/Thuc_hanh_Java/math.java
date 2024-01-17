@@ -7,7 +7,7 @@ import java.util.Scanner; //Khai báo thư viện cho phép nhập đầu vào
 public class math {
     public static void main(String[] args) {
 
-        Scanner sc = new Scanner(System.in); //tạo đối tượng để nhập
+        Scanner sc = new Scanner(System.in); //tạo đầu vào
 
         System.out.print("Number 1: "); //Nhập số thứ nhất
         double number_a = sc.nextDouble(); 
