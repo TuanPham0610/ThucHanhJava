@@ -1,3 +1,5 @@
+package Thuc_hanh_Java;
+
 //Thực hiện các phép toán cơ bản 
 
 import java.util.Scanner; //Khai báo thư viện cho phép nhập đầu vào

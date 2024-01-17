@@ -1,3 +1,5 @@
+package Lap_2;
+
 // Giải phương trình bậc nhất
 
 import java.util.Scanner; 

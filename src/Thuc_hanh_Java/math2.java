@@ -1,3 +1,5 @@
+package Thuc_hanh_Java;
+
 //Check số chẵn lẻ
 
 import java.util.Scanner; //Khai báo thư viện cho phép nhập đầu vào
