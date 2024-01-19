@@ -1,5 +1,5 @@
 
-package Lap_2;
+package Lab_2;
 
 // Giải phương trình bậc 2
 
