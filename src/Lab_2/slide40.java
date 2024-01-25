@@ -1,4 +1,4 @@
-//Tính số ngày trong tháng (slide 40)
+//ngày trong tháng (slide 40)
 
 package Lab_2;
 
