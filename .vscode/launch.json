@@ -1,0 +1,25 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Salary1",
+            "request": "launch",
+            "mainClass": "Lab_2.Salary1",
+            "projectName": "Java_a7c07b7c"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch) - Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)- App",
+            "request": "launch",
+            "mainClass": "your.main.class",
+            "console": "internalConsole",
+            "encoding": "UTF-8"
+        }
+    ]
+}
