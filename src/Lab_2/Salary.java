@@ -69,9 +69,9 @@ public class Salary{
         final public float phantram = 0.1f; // 10%
         public int doanhso;
     
-        public double l1; //Lương 1: Nv có doanh thu >= 5tr
-        public double l2; //Lương 2: Nv có doanh thu > 0 và < 5tr
-        public double l3; //Lương 3: Nv ko có doanh thu
+        public double l1; //Lương 1: Nv có doanh thu >= 5tr / Lương cứng + ( phần trăm x doanh số bán hàng ) + Thưởng 
+        public double l2; //Lương 2: Nv có doanh thu > 0 và < 5tr / Lương cứng + phần trăm * doanh số
+        public double l3; //Lương 3: Nv ko có doanh thu / Lương cứng - ( phần trăm x Lương cứng )
     
         Scanner sc = new Scanner(System.in);
     
