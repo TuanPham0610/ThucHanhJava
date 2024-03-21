@@ -8,6 +8,10 @@ public class HinhTron {
     public float banKinh;
     public final float pi = 3.14f;
 
+    // public static void main(String[] agrs) {
+    //     new HinhTron().nhapBanKinh();
+    // }
+
     public void nhapBanKinh() {
         Scanner sc = new Scanner(System.in);
 
