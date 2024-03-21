@@ -1,18 +1,3 @@
-//Mảng 1 chiều 
-
-package Lab_2;
-
-public class slide74 {
-    public static void main(String[] args) {
-        int[] array = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
-        int sum = 0;
-
-        for (int i = 0; i < array.length; i++) {
-            if (array[i] % 2 == 0) {
-                sum += array[i];
-            }
-        }
-
-        System.out.println("Tong cac so chan trong mang la: " + sum);
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:7cb86823bc1b19468f060d3027cd753932348b86be9d1a2dd5f90e7f35694092
+size 422

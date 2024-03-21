@@ -1,26 +1,3 @@
-package Thuc_hanh_Java;
-
-//Check số chẵn lẻ
-
-import java.util.Scanner; //Khai báo thư viện cho phép nhập đầu vào
-
-public class math2{
-    public static void main(String[] args){
-        Scanner input = new Scanner(System.in); //tạo đầu vào
-
-        System.out.print("Number: "); //Nhập số
-        int number_a = input.nextInt();
-
-        //Chia hết cho 2 thì là chẵn và ngược lại
-        if (number_a % 2 == 0)
-        {System.out.println("Even number");}
-
-        else 
-        {System.out.println("Odd number");}
-
-        input.close(); //Kết thúc nhập
-   
-        
-    }
-
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:0759315589290f35ec8d73f855c71ef96c68b09075a1306e9bf59b5c31709fff
+size 645

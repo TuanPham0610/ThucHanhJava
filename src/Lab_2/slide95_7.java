@@ -1,14 +1,3 @@
-//In ra 20 số nguyên đầu 
-package Lab_2;
-
-
-
-public class slide95_7{
-    public static void main(String[] args){
-        for (int i = 0; i <=19; i++){
-            System.out.println(i);
-        }
-        
-
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:cc67c90424263be210c2fbe21e127303f06c1fc65714b4ce407b887e733328fa
+size 231

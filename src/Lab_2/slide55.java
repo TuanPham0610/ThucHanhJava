@@ -1,18 +1,3 @@
-//Các số chia hết cho 5 trong phạm vi 0 - 20 (slide 55)
-
-// for i in range(1,21):
-//     if i % 5 == 0:
-//         print(i)
-
-package Lab_2;
-
-
-public class slide55{
-    public static void main(String[]args ){
-        for (int i = 0; i <= 20; i +=5) //Tăng i lên 5 sau mỗi vòng lặp
-        {
-            System.out.println(i);
-        }
-    }
-
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:c1932c610ef41823893713b074d21ab51d2e577fd6497d03bd23890a4ae3cfed
+size 374

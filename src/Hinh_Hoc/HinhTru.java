@@ -1,29 +1,3 @@
-package Hinh_Hoc;
-
-import java.util.Scanner;
-
-public class HinhTru extends Hinhtron{
-    public float chieuCao;
-
-    public void nhapChieuCao(){
-        
-        super.nhapBanKinh();
-        Scanner sc = new Scanner(System.in);
-        System.out.print("Nhap chieu cao: ");
-        chieuCao = sc.nextFloat();
-    }
-
-    public void tinhTheTich(){
-        theTich = pi * banKinh * banKinh * chieuCao;
-        super.inTheTich();
-    }
-
-    public static void main(String[] args) {
-        
-        HinhTru hinhtru = new HinhTru();
-        hinhtru.nhapChieuCao();
-        hinhtru.tinhTheTich();
-    }
-
-    
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:bc45eec8fc6c45cc3575b0370afa8fa7dcb3c6a6dd87d0e9c92a6808d58d5520
+size 633

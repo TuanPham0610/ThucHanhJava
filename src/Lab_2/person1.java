@@ -1,18 +1,3 @@
-package Lab_2;
-
-public class person1{
-    public static void main(String[] args) {
-
-        person p = new person();
-
-        p.HovaTen();
-        p.Tuoi();
-        p.DiaChi();
-
-        System.out.print("Name: " + p.Name);
-        System.out.println(" ");
-        System.out.print("Age: " + p.Age);
-        System.out.println(" ");
-        System.out.print("Address: " + p.Address);
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:4432c2c2d8ae7e49f033b51cf8b46fe954c96c6c72f089b1ea47f26a73d78b74
+size 407

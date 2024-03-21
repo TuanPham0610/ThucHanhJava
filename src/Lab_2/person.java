@@ -1,32 +1,3 @@
-package Lab_2;
-
-import java.util.Scanner;
-
-public class person {
-
-    public String Name;
-    public int Age;
-    public String Address;
-
-    Scanner sc = new Scanner(System.in);
-
-    public void HovaTen(){
-        
-        System.out.print("Ho va ten: ");
-        Name = sc.nextLine();
-    }
-
-    public void Tuoi(){
-        System.out.print("Tuoi: ");
-        Age = sc.nextInt();
-        sc.nextLine();
-    }
-
-    public void DiaChi(){
-        System.out.print("Dia chi: ");
-        Address = sc.nextLine();
-        sc.close();
-    }
-
-
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:44b2a0f80f4e35095ff10342b66f53fe15bd523f8f4a02e6111e62d47ec5d05b
+size 572
