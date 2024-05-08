@@ -1,0 +1,38 @@
+đưa code lên
+
+git init
+
+git add . 
+
+git commit -m "first commit"
+
+git branch -M main
+
+git remote add origin https://github.com/TuanPham0610/BaiThucHanhJavaOOP.git
+
+git push -u origin master/main
+
+
+
+update
+
+cd /đường_dẫn_đến_thư_mục_chứa_code
+
+git add --all
+
+git commit -m "Thông điệp mô tả thay đổi"
+
+git push origin master
+
+
+đổi kho lưu trữ
+
+git remote set-url origin https://github.com/TuanPham0610/BaiThucHanhJavaOOP.git
+
+https://github.com/TuanPham0610/BaiThucHanhJavaOOP.git - kho lưu trữ cần đổi
+
+git filter-branch --force --index-filter 'git rm --cached --ignore-unmatch <src/jdk-22_windows-x64_bin/jdk-22/lib/modules>' --prune-empty --tag-name-filter cat -- --all
+
+
+
+
